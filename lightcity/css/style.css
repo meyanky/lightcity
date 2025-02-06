@@ -1,0 +1,155 @@
+* {
+margin: 0;
+padding: 0;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+}
+body{
+background-color: rgb(232, 240, 240);
+    padding-bottom: 10px;
+}
+
+.intro{
+    color: rgb(22, 161, 22);
+    text-align: center;
+    margin-bottom: 10px;
+}
+.menu {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    background-color:rgb(5, 5, 73);;
+    
+}
+.pop {
+    width: 20%;
+    margin-top: 5px;
+    border-radius: 40%;
+    margin-left: 10px;
+}
+.nav-list{
+    color: rgb(22, 161, 22);
+    font-size: larger;
+    font-weight: bold;
+    padding: 20px;
+    
+
+}
+
+   
+h3{
+    color: rgb(22, 161, 22);
+    margin-left: 10px;
+    text-align: start;
+    margin-bottom: 10px;
+}
+.pppp{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    margin-left: 10px;
+    line-height: 2rem;
+    width: 90%;
+    
+    
+}
+h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(22, 161, 22);
+}
+.main{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    column-gap: 10px;
+    row-gap: 40px;
+    justify-items: center;
+}
+.main img{
+    width: 60%;
+    border-radius: 40px;
+}
+.lay{
+    display:inline-block;
+    text-align: center;
+    padding: 30px;
+    width: 800px;
+    align-items: center;
+    
+
+}
+.lay img{
+    width: 40%;
+    border-radius: 15%;
+    margin-right: 20px;
+}
+.lay p{
+    margin-right: 50px;
+    color: rgb(22, 161, 22);
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}.one{
+    justify-items: center;
+}
+.sp{
+    color: rgb(95, 16, 168);
+}
+.layout{
+    display: flex;
+    justify-content:stretch
+    
+}
+.lay-one img{
+    width: 40%;
+    border-radius: 15%;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+.foot-one img{
+    width: 50%;
+    margin-left: 50px;
+    
+    
+}
+.foty{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    background-color: rgb(5, 5, 73);
+    
+}
+.foot{
+   margin-top: 10px; 
+   margin-left: 30px;
+}
+.foot p{
+    color: white;
+}
+.com{
+    color: rgb(148, 0, 0);
+}
+@media screen {
+    .main{min-width: 50px; grid-template-rows: 1fr;
+        max-width:100%;
+        grid-template-columns: 1fr 1fr 1fr;
+       
+    }
+    
+}
+address{
+    font-weight: bold;
+    color: rgb(22, 161, 22);
+}
+li{
+    font-weight: bolder;
+    color: rgb(8, 151, 156);
+}
+     
+
